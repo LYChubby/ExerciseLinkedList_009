@@ -38,7 +38,7 @@ void CircularLinkedList::addNode() { //write your answer here
 			cout << "RollNumber Sudah Ada" << endl;
 			return;
 		}
-		newNode->next = LAST->next;
+
 		LAST->next = newNode;    // Membuat newNode berada di LAST->next
 		return;
 	}
